@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <title>Cadastro Odontológico</title>
+</head>
+
+<body>
+    <header class="header__container">
+        <h1 class="header__container--h1">Efetue seu cadastro no Consultório Odontológico</h1>
+        <img class="header__container--img" src="../tarefa2html/imagens/dentes.jpg" alt="dois dentinhos fofos">
+    </header>
+    <div class="main__form--container">
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                
+             <!--   <label>Bem vindo!</label>
+                <audio src="../tarefa2html/musicas/bemvindo.mp3" controls></audio><br><br>-->
+                <label>Nome completo:</label>
+                <input class="campos" type="text" placeholder="ex.:Maria Silva"><br><br>
+
+                <label>Idade:</label>
+                <input class="campos" type="text" placeholder="ex.:17"><br><br>
+
+                <label>CPF:</label>
+                <input class="campos" type="text" placeholder="ex.:000.000.000-00"><br><br>
+
+                <label>Data de nascimento:</label>
+                <input class="campos" type="date"><br><br>
+
+
+                <label>Insira aqui uma foto:</label>
+                <input class="campos" type="file"><br>
+
+                <div class="main__form--firstfield-button-div">
+                    <button class="main__form--firstfield-button">Upload</button>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço</legend>
+
+                <label>Estado:</label>
+                <select name="estados-brasil">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+
+                <label>Cidade:</label>
+                <input class="campos" type="text" placeholder="ex.:Marília-SP"><br><br>
+
+                <label>CEP:</label>
+                <input class="campos" type="text" placeholder="ex.:00000-000"><br><br>
+
+                <label>Bairro:</label>
+                <input class="campos" type="text" placeholder="ex.:Jardim Helena"><br><br>
+
+                <label>Endereço:</label>
+                <input class="campos" type="text" placeholder="ex.:Rua Fulano de tal, 000"><br><br>
+
+
+                <label>Moro num(a):</label>
+                <input type="radio" name="moradia" value="casa">
+                <label>Casa</label>
+                <input type="radio" name="moradia" value="ape">
+                <label>Apartamento</label>
+                <input type="radio" name="moradia" value="outro">
+                <label>Outro</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contato</legend>
+                <label>Telefone:</label>
+                <input class="campos" type="text" placeholder="ex.:(00)0000-0000"><br><br>
+                <label>Celular:</label>
+                <input class="campos" type="text" placeholder="ex.:(00)00000-0000"><br><br>
+                <label>E-mail:</label>
+                <input class="campos" type="email" placeholder="mariasilva@hotmail.com"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Meu login:</legend>
+
+                <label>Nome de usuário:</label>
+                <input class="campos" type="email"><br><br>
+
+                <label>Senha:</label>
+                <input class="campos" type="password">
+            </fieldset>
+
+            <fieldset>
+                <legend>Extra</legend>
+
+                <legend>Tratamentos:</legend>
+
+                <input type="checkbox" value="Clareamento">
+                <label>Clareamento</label><br>
+
+                <input type="checkbox" value="Aparelho">
+                <label>Aparelho ortodôntico</label><br>
+
+                <input type="checkbox" value="Implante">
+                <label>Implante dentário</label><br>
+
+                <input type="checkbox" value="Dentadura">
+                <label>Dentadura</label><br>
+
+                <input type="checkbox" value="Periodontia">
+                <label>Periodontia</label><br>
+
+                <input type="checkbox" value="Canal">
+                <label>Canal</label><br>
+
+                <br>
+
+                <label>Crediário?</label>
+                <select name="cred">
+                    <option value="Nao">Não</option>
+                    <option value="Sim">Sim</option>
+                </select>
+                <br><br>
+
+                <label>Observações:</label>
+                <textarea class="campos" cols="40" rows="10" placeholder="ex.:alergia"></textarea><br><br>
+
+            </fieldset>
+
+            <div class="main__form--button-div">
+                <input class="main__form--button" type="submit" value="Enviar formulário">
+            </div>
+        </form>
+    </div>
+    <div class="table__h1--div">
+        <h2 class="table--h1">Cronograma de consultas:</h2>
+    </div>
+    <div class="table--div">
+        <table>
+            <tr>
+                <th></th>
+                <th>Sábado</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+            </tr>
+            <tr>
+                <th>Manhã</th>
+                <td>Reservado</td>
+                <td>Reservado</td>
+                <td>Disponível</td>
+                <td>Reservado</td>
+                <td>Reservado</td>
+                <td>Disponível</td>
+            </tr>
+            <tr>
+                <th>Tarde</th>
+                <td>Disponível</td>
+                <td>Disponível</td>
+                <td>Reservado</td>
+                <td>Disponível</td>
+                <td>Disponível</td>
+                <td>Reservado</td>
+            </tr>
+            <tr>
+                <th>Noite</th>
+                <td>Fechado</td>
+                <td>Fechado</td>
+                <td>Fechado</td>
+                <td>Fechado</td>
+                <td>Fechado</td>
+                <td>Fechado</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p style="background-color: rgb(160, 209, 216);; padding:15px;"> Esse formulário foi criado durante o curso
+            Reprograma
+            Teens, em novembro de 2020 </p>
+    </footer>
+</body>
+
+</html>

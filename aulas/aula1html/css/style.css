@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    font-family: 'Architects Daughter', cursive;
+}
+ul > li{
+    list-style: none;
+}
+.cabecalho{
+    background-color: darksalmon;
+    height: 300px;
+    background-size: cover;
+}
+.conteudo_pricipal{
+    background-color: #29397A;
+    text-align: center;
+    margin: auto 0px;
+}
+.artigo_apresentacao{
+    text-align: center;
+    background-color: #29397A;
+
+}
+section{
+    background-color: #29397A;
+
+}
+.sessao_listas{
+    display: inline-block;
+}
+.p_apre{
+    font-size: 22px;
+    background-color: #29397A;
+
+}
+.conhecido{
+    color:#88C0D7;
+    font-size: 22px;
+}
+article{
+    background-color: #29397A;
+}
+.titulo{
+    text-align: center;
+    color:#88C0D7;
+    background-color: #29397A;
+    padding: 10px;
+    margin: 10px;
+}
+.titulo_li{
+    color:#88C0D7;
+    padding: 10px;
+    margin: 10px;
+}
+.lista{
+    width: 270px;
+    height: 80px;
+    padding: 30px;
+    border: 3px black solid;
+    margin: 30px;
+    background-color:white ;
+}
+.link{
+    color: #88C0D7;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Meu primeiro formulário</title>
+</head>
+
+<body>
+    <main>
+    <div>
+        <h1>Oi, meu nome é Rafaela e esse é o meu primeiro formulário em HTML</h1>
+        <img class="img" src="../aula2html/imagens/giphy.gif" alt="gif de uma menina sorrindo">
+    </div>
+    <form>
+        <fieldset>
+            <legend>Sobre mim</legend>
+            <label>Meu nome:</label>
+            <input class="campos" type="text" placeholder="ex.:Rafaela"><br><br>
+            <label>Idade:</label>
+            <input class="campos" type="text" placeholder="ex.:17"><br><br>
+            <label>Minha data de nascimento:</label>
+            <input class="campos" type="date" max="2006-12-31"><br><br>
+            <label>Minha cidade:</label>
+            <input class="campos" type="text" placeholder="ex.:Marília-SP"><br><br>
+            <label>Qual é o meu maior sonho?</label>
+            <textarea class="campos" cols="40" rows="10" placeholder="ex.:Viajar o mundo"></textarea><br><br>
+            <label>Uma foto minha:</label>
+            <input class="campos" type="file">
+            <button>Upload</button>
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Sobre minha família</legend>
+            <label>Eu moro com:</label>
+            <input type="checkbox" value="Sozinha">
+            <label>Sozinha</label>
+            <input type="checkbox" value="Com meus pais/avós">
+            <label>Com meus pais/avós</label>
+            <input type="checkbox" value="Com irmãos/irmãs">
+            <label>Com irmãos/irmãs</label>
+            <input type="checkbox" value="Com outras pessoas amadas">
+            <label>Com outras pessoas amadas</label>
+            <br><br>
+            <label>Tenho um pet?</label>
+            <select class="campos">
+                <option  value="catioro">Catioro</option>
+                <option  value="gatinho">Gatinho</option>
+                <option  value="aves">Pássaro/papagaio/calopsita</option>
+                <option  value="Peixes">Peixes</option>
+                <option  value="semPets">Não tenho pets</option>
+            </select>
+            <br><br>
+            <label>Moro num(a) bela/o:</label>
+            <input type="radio" name="moradia" value="casa">
+            <label>Casa</label>
+            <input type="radio" name="moradia" value="ape">
+            <label>Apê</label>
+            <input type="radio" name="moradia" value="nomade">
+            <label>Sou nômade</label>
+        </fieldset>
+        <fieldset>
+            <legend>Meus hobbies:</legend>
+            <label>O que me deixa feliz?</label>
+            <input class="campos" type="text"><br><br>
+            <label>O que eu mais gosto de comer?</label>
+            <input class="campos" type="text"><br><br>
+            <label>Lugar preferido:</label>
+            <input class="campos" type="text"><br><br>
+            <label>Série/filme que eu amo:</label>
+            <input class="campos" type="text"><br><br>
+            <label>Música favorita eveeeer</label>
+            <audio src="../aula2html/musicas/WhatsApp Audio 2020-11-03 at 17.11.29.mp4" controls></audio>
+        </fieldset>
+        <fieldset>
+            <legend>Meu login:</legend>
+            <label>Nome de usuário</label>
+            <input class="campos" type="email"><br><br>
+            <label>Senha</label>
+            <input class="campos" type="password">
+        </fieldset>
+        <input class="botao" type="submit" value="Enviar formulário">
+    </form>
+</main>
+</body>
+
+</html>

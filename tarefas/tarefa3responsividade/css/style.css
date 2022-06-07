@@ -1,0 +1,238 @@
+/* professora, repara a bagunça não, fiquei meio confusa 
+   com o mobile first, mas acho que saiu kkkk
+   fiz com temática de Harry Potter, to avisando pq vai que tu não
+   pega as referências, ai vai pensar que eu sou doida kkkkk */
+*{ 
+    font-size: 15px;
+    margin-right: none;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Nanum Myeongjo', serif;
+    background-color: rgb(238,239, 244);
+}
+header>nav{
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+    text-align: right;
+    background-color:#782F8E;
+    padding: 15px;
+    margin-bottom: 15px;
+   
+}
+.nav__img--container{
+    display: block;
+    text-align: left;
+    align-items: center;
+}
+.nav__img{
+    width:42%;
+}
+nav ul>li>a{
+    display: block;
+    list-style: none;
+    max-width: 1200px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+header ul>li{
+    font-size: 0.9rem;
+    font-weight: 600;
+    list-style: none;
+}
+
+header h1{
+    font-size: 2.6rem;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color:  #220B13;
+}
+
+header h3{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+    color:  #220B13;
+}
+.main__textoPricipal--container{
+    padding: 23px;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    background-color: #782F8E;
+    border-radius: 1%;
+    box-shadow: 2px 2px 3px 3px gray;
+}
+.main_textoPricipal{
+    max-width: 800px;
+    font-size: 1rem;
+    padding: 15px;
+    text-align: justify;
+}
+
+section img{
+ max-width: 200px;
+ min-height: 150px;
+}
+
+.main__sectionImages--trioImg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.main__sectionImages--trioImg>div{
+    padding: 2%;
+}
+
+.poster{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange; 
+}
+footer {
+    background-color: #782F8E;
+    padding: 15px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer p:first-child {
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-style: normal;
+    color: white;
+}
+
+.footer__contato{
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+}
+
+.footer__contato--lista-container {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul{
+    list-style: none;
+    list-style: none;
+    text-align: left;
+    line-height: 30px;
+}
+
+footer li:first-child {
+    color: #f1c73d;
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+footer li>a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #f1c73d;
+    font-weight: 800;
+}
+footer p{
+    font-style: italic;
+    font-size: 1rem;
+}
+.footer__texto--ultimoParagrafo {
+    margin-top: 60px;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    color: white;
+}
+
+
+
+@media screen and (min-width: 430px){
+    *{
+    font-size: 16px;
+    margin-right: none;
+    }
+
+    header{
+        margin-bottom: +10px;
+    }
+
+    header>nav{
+        display: flex;
+        justify-content: flex-start;
+        background-color:#782F8E;
+        padding: 15px;
+        margin-bottom: 30px;
+        
+    }
+    .header__titulos {
+        line-height: 48px;
+        margin-bottom: 10px;
+
+     }
+      
+    .main__textoPricipal--container {
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        background-color: #782F8E;
+        border-radius: 1%;
+        box-shadow: 2px 2px 3px 3px gray;  
+    }
+
+   .main__textoPrincipal{
+        line-height: 40px;
+    }
+     
+
+}
+@media screen and (min-width: 830px){
+
+    *{
+        font-size: 18px;
+        margin-right: none;
+      }
+
+
+    header>nav{
+        display: flex;
+        justify-content: flex-end;
+        background-color:#782F8E;
+        padding: 15px;
+        margin-bottom: 80px;
+    }
+    
+    header ul{
+        display: flex;
+        justify-content: flex-end;
+        background-color:#782F8E;
+        padding: 15px;
+        
+    }
+
+    
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        /* align-items: center;   */
+        list-style: none;
+        min-width: 360px;
+        font-weight: bold;
+     }
+}
+
+
